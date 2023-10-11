@@ -1,0 +1,30 @@
+body{
+    background-image: url(../img/cube.jpg);
+    background-size: cover;
+}
+#wrapper{
+    width: 950px;
+    height: 950px;
+    margin: 0 auto;
+    background-color: var(--ms-dark);
+}
+
+.box{
+    width: calc(100% / 10 - 20px);
+    height: calc(100% / 10 - 20px);
+    border:1px solid black;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 2px black;
+}
+.fizz-buzz{
+    background-color: rgb(177, 20, 20);
+}
+.fizz{
+    background-color: rgb(14, 125, 14);
+}
+.buzz{
+    background-color: rgb(4, 4, 185);
+}
+.number{
+    background-color: rgba(203, 203, 25, 0.715);
+}
